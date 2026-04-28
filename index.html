@@ -83,6 +83,118 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-快速生成隧道超欠挖数据和图纸" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/post/sd-randcqw.html" class="article-date">
+  <time class="dt-published" datetime="2026-04-10T04:00:00.000Z" itemprop="datePublished">2026-04-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/post/sd-randcqw.html">快速生成隧道超欠挖数据和图纸</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>给定隧道断面设计边线，按要求生成隧道实测断面以及超欠挖数据和图纸</p>
+<p>输入条件：</p>
+<ul>
+<li><strong>隧道断面设计边线</strong>，CAD图形，封闭多段线，可包括直线、折线、弧线等<ul>
+<li>可选：<strong>台阶</strong>位置</li>
+<li>可选：<strong>中隔壁弧线</strong>，CAD图形，弧线</li>
+<li>可选：<strong>仰拱</strong>，CAD图形，弧线+直线</li>
+</ul>
+</li>
+<li>起始桩号、终止桩号、桩号间距，例如：K0+115-165@10，用于确定图纸张数和每张图纸的桩号</li>
+<li>沿断面取点的<strong>点距</strong>取值范围，例如：1.5-1.9，表示点距在1.5m到1.9m之间<strong>随机选取</strong></li>
+<li><strong>超欠挖数据</strong>取值范围，例如：0~15，表示超欠挖数值0mm到15mm之间<strong>随机选取</strong></li>
+<li>开挖方法：<strong>全断面</strong>、<strong>上下台</strong>、<strong>左右侧</strong>、<strong>四部挖</strong>、<strong>仰拱</strong>等，不同开挖方法对应不同类型的超欠挖标注方式</li>
+<li>图框，CAD图形，用于每张图纸插入并编号</li>
+</ul>
+<p>生成内容：</p>
+<ul>
+<li>每个桩号生成一张超欠挖<strong>CAD图纸</strong>，包含实测断面图形、原位标注超欠挖数据、统计超欠挖面积等</li>
+<li>每个桩号生成一个对应图纸的<strong>xlsx表格文件</strong>，包含相关数据</li>
+<li>具体内容可按项目要求进行适当定制</li>
+</ul>
+<!---
+![全断面](https://images.922252.xyz/suidao/suiddao-rndcw-1.png =300x200)
+![左右侧](https://images.922252.xyz/suidao/suiddao-rndcw-2.png)
+![四部挖](https://images.922252.xyz/suidao/suiddao-rndcw-3.png)
+![仰拱](https://images.922252.xyz/suidao/suiddao-rndcw-4.png)
+```
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-1.png" width="300" alt="全断面"/>
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-2.png" width="300" alt="全断面"/>
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-3.png" width="300" alt="全断面"/>
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-4.png" width="300" alt="全断面"/>
+-->
+<hr>
+<!-- div style="display: flex; justify-content: space-between;"-->
+<!--
+<div style="display: grid; justify-content: left;">
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-1.png" alt="全断面" width="300">
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-2.png" alt="左右侧" width="300">
+</div>
+
+
+
+<div style="display: grid; justify-content: left;">
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-3.png" alt="四部挖" width="300">
+
+<img src="https://images.922252.xyz/suidao/suiddao-rndcw-4.png" alt="仰拱" width="300">
+</div>
+-->
+<table style="border:none">
+    <tr>
+        <td ><center><img src="https://images.922252.xyz/suidao/suiddao-rndcw-1.png" width="300"><figcaption>全断面</figcaption></center></td>
+        <td ><center><img src="https://images.922252.xyz/suidao/suiddao-rndcw-2.png" width="300"><figcaption>左右侧</figcaption></center></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td ><center><img src="https://images.922252.xyz/suidao/suiddao-rndcw-3.png" width="300"><figcaption>四部挖</figcaption></center></td>
+        <td ><center><img src="https://images.922252.xyz/suidao/suiddao-rndcw-4.png" width="300"><figcaption>仰拱</figcaption></center></td>
+    </tr>
+</table>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3372727959029161"
+     crossorigin="anonymous"></script>
+<!-- footer -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3372727959029161"
+     data-ad-slot="7004690416"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://blog.922252.xyz/post/sd-randcqw.html" data-id="cuidudWBa_N19K6s9HlFwuJdn" data-title="快速生成隧道超欠挖数据和图纸" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-从DXF生成点位数据" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/post/dxf_to_pts.html" class="article-date">
@@ -735,78 +847,6 @@
 
 
   
-    <article id="post-lsum：线段长度求和" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/post/lsum.html" class="article-date">
-  <time class="dt-published" datetime="2025-12-01T04:00:00.000Z" itemprop="datePublished">2025-12-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/post/lsum.html">线段长度求和</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>文件： lsum.VLX</p>
-<p>命令： lsum</p>
-<p>功能： 线段长度求和</p>
-<p>操作： 批量选择线段（line），求出长度之和</p>
-<p>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3372727959029161"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-3372727959029161"
-     data-ad-slot="8285982493"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</p>
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3372727959029161"
-     crossorigin="anonymous"></script>
-<!-- footer -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3372727959029161"
-     data-ad-slot="7004690416"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://blog.922252.xyz/post/lsum.html" data-id="cuidEmMu6WgnITTUTeSlHTs2i" data-title="线段长度求和" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
   <nav id="page-nav">
@@ -830,7 +870,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/02/">February 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">January 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/12/">December 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">November 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/10/">October 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/09/">September 2025</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/04/">April 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/02/">February 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">January 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/12/">December 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">November 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/10/">October 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/09/">September 2025</a></li></ul>
     </div>
   </div>
 
@@ -841,6 +881,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/post/sd-randcqw.html">快速生成隧道超欠挖数据和图纸</a>
+          </li>
         
           <li>
             <a href="/post/dxf_to_pts.html">从DXF生成点位数据文件</a>
@@ -856,10 +900,6 @@
         
           <li>
             <a href="/post/zdhb.html">CASS展点合并</a>
-          </li>
-        
-          <li>
-            <a href="/post/tf.html">断面土方算量</a>
           </li>
         
       </ul>
